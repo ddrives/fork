@@ -1,0 +1,29 @@
+{
+  "name": "@ddrive/fork",
+  "version": "0.1.1",
+  "description": "Compare file contents for a file in dDrive and on the filesystem.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "stream-equal": "^0.1.9"
+  },
+  "peerDependencies": {
+    "@ddrive/core": "ddrives/core#master"
+  },
+  "devDependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "standard": "^9.0.2",
+    "tape": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
